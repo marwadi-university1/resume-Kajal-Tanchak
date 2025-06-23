@@ -1,0 +1,26 @@
+[
+  {
+    "name": "check-if-index-html-exists",
+    "run": "ls index.html",
+    "input": "",
+    "expected_output": "index.html",
+    "comparison": "included",
+    "points": 5
+  },
+  {
+    "name": "check-if-table-tag-exists",
+    "run": "cat index.html",
+    "input": "",
+    "expected_output": "<table>",
+    "comparison": "included",
+    "points": 5
+  },
+  {
+    "name": "check-if-at-least-one-tr-tag-exists",
+    "run": "cat index.html",
+    "input": "",
+    "expected_output": "<tr>",
+    "comparison": "included",
+    "points": 5
+  }
+]
